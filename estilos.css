@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0px;
+    background-color: #1e1e2f;
+    color: #ffffff;
+}
+
+header {
+    background-color: #8a2be2; 
+    text-align: center;
+    color: #f0f0ff;
+    font-size: 1.8rem;
+    padding: 15px 0px;
+}
+
+section {
+    background-color: #301934; 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+article, fieldset {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+fieldset {
+    width: 38%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid #d269ff; 
+    border-radius: 8px;
+    background-color: #3a214b;
+}
+
+legend {
+    font-weight: bold;
+    color: #e3c1ff; 
+}
+
+fieldset input {
+    display: block;
+    margin: 10px auto;
+    height: 30px;
+    font-size: 1.2rem;
+    background-color: #2d1736;
+    color: #e3c1ff;
+    border: 1px solid #d269ff;
+    border-radius: 5px;
+}
+
+button {
+    width: 40%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #8000ff; 
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #b139ff;
+}
+
+article {
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #f5e1ff;
+}
+
+article input {
+    margin: 0 auto;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #2d1736;
+    color: #e3c1ff;
+    border: 1px solid #d269ff;
+    border-radius: 5px;
+}
+
+article button {
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    background-color: #3a214b;
+    border-radius: 10px;
+    color: #e3c1ff;
+}
+
+th {
+    background-color: #622b7d;
+    padding: 5px;
+    font-size: 1.5rem;
+    color: #f5e1ff;
+    text-align: left;
+}	
+
+td {
+    border-bottom: 2px solid #7a4089;
+    padding: 8px;
+    width: 200px;
+}
+
+#titulos {
+    text-align: right;
+    color: #f5e1ff;
+}
+
+#totales {
+    text-align: left;
+    color: #e3c1ff;
+}
+
+.fondo {
+    background-color: #5a2676; }
+
+.texto {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+input[type="text"], input[type="number"] {
+    color: white;
+}
